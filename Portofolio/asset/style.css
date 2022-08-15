@@ -21,6 +21,7 @@ body{
     display: none;
 }
 
+/* Class Inicio */
 .inicio-div{
     position: absolute;
     top: 300px;
@@ -36,23 +37,38 @@ body{
     font-family: 'Orbitron', sans-serif;
 }
 
+/* Class Portafolio */
+
+.titulo-portafolio{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--white);
+    top: 20px;
+    margin: 0 43% 80px;
+
+}
+
+.car1,.car2,.car3{
+    height: 80vh;
+    border: 1px solid var(--celeste);
+}
+
+
+/* Class Resumen */
 .cv{
     padding: 0 100px ;
     text-align: center;
-
+    color: var(--darkPurple);
     height: 100vh;
 }
 
 .titulo-resumen{
-    position: absolute;
+    position: relative;
     font-family: 'Orbitron', sans-serif;
     top: 20px;
-    left: 100px;
-    right: 100px;
+    margin: 0 43% 80px;
 
 }
-
-
 
 .resumen-parrafo{
     position: absolute;
@@ -61,6 +77,51 @@ body{
     left: 100px;
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 24px;
+}
+
+.resumen-left{
+    position: absolute;
+    top: 250px ;
+    text-align: left;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+}
+
+.resumen-left h1,h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resumen-right{
+    position: absolute;
+    top: 250px;
+    text-align: left;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+}
+
+.resumen-right h1,h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resumen-right .cic::after{
+    position: absolute;
+    content: "2019 - 2021";
+    right: 50px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.resumen-right .grunenthal::after{
+    position: absolute;
+    content: "2021 - 2022";
+    right: 50px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.resumen-parrafo p,li{
+    font-family: 'PT Sans Caption', sans-serif;
+
 }
 
 /* ID */
