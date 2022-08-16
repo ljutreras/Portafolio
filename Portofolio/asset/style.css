@@ -124,6 +124,60 @@ body{
 
 }
 
+/* Class Contacto */
+
+.titulo-contacto{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkPurple);
+    top: 20px;
+    margin: 0 43% 80px;
+
+}
+
+.formulario-contacto{
+    position: absolute;
+    left: 100px;
+}
+
+.formulario-contacto label{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.formulario-contacto input{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    height: 60px;
+}
+
+.formulario-contacto textarea{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+}
+
+/* .mapa-google{
+    position: absolute;
+    right: 100px;
+    top: 300px;
+} */
+
+.boton-enviar{
+    background-color: transparent;
+    color: var(--darkPurple);
+    border-radius: 5px;
+    height: 60px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover{
+    background-color: var(--darkPurple);
+    color: var(--white);
+    transition: 0.4s ease-out all;
+}
+
 /* ID */
 
 #nav-menu{
@@ -147,16 +201,18 @@ body{
 #resumen{
     background: linear-gradient(180deg,var(--wildBlue) 0%,var(--nonPhotoBlue)50%,var(--celeste)100%);
     margin-left: 250px;
+    color: var(--darkPurple);
     
 }
 
 #contacto{
     background: var(--celeste);
     margin-left: 250px;
+    color: var(--darkPurple);
 }
 
 #footer{
-    background-color: var(--celeste);
+    background-color: var(--darkPurple);
     min-height: 250px;
     margin-left: 250px;
 }
