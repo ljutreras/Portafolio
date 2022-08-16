@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css";
 
 const NavLateralComponent = () => {
   return(
-    <div id="nav-menu" className="nav shadow-lg">
+    <div id="nav-menu">
       <nav className="nav d-grid ms-auto align-content-center">
         <a className="nav-link text-light mb-2" href="#inicio">
           Inicio

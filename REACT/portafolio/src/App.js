@@ -1,18 +1,20 @@
 import React from "react";
-import NavLateralComponent from "./components/NavLateralComponent";
 import "./assets/styles.css";
-import InicioComponent from "./components/InicioComponent";
-import PortafolioComponent from "./components/PortafolioComponent";
-import ResumenComponent from "./components/ResumenComponent";
+import NavLateralComponent from "./components/Navbar/NavLateralComponent";
+import InicioComponent from "./components/Inicio/InicioComponent";
+import PortafolioComponent from "./components/Portafolio/PortafolioComponent";
+import ResumenComponent from "./components/Resumen/ResumenComponent";
+import ContactoComponent from "./components/Contacto/ContactoComponent";
 
 const App = () => {
   return (
-    <div>
+    <>
       <NavLateralComponent />,
       <InicioComponent />,
       <PortafolioComponent />,
-      <ResumenComponent />
-    </div>
+      <ResumenComponent />,
+      <ContactoComponent />
+    </>
   );
 };
 

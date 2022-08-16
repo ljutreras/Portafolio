@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=PT+Sans+Caption&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --darkPurple : #22162b;
+    --russianViolet :#451f55;
+    --royalPurple :#724e91;
+    --wildBlue :#99b2dd;
+    --nonPhotoBlue : #9bd9eb;
+    --celeste :#9dfff9;
+    --white : #cfcece;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Class Resumen */
+.cv{
+    padding: 0 100px ;
+    text-align: center;
+    color: var(--darkPurple);
+    height: 100vh;
+}
+
+.titulo-resumen{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    top: 20px;
+    margin: 0 43% 80px;
+
+}
+
+.resumen-parrafo{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    left: 100px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+}
+
+.resumen-left{
+    position: absolute;
+    top: 200px ;
+    text-align: left;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+}
+
+.resumen-left h1,h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resumen-right{
+    position: absolute;
+    top: 200px;
+    text-align: left;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+}
+
+.resumen-right h1,h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resumen-right .cic::after{
+    position: absolute;
+    content: "2019 - 2021";
+    right: 50px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.resumen-right .grunenthal::after{
+    position: absolute;
+    content: "2021 - 2022";
+    right: 50px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.resumen-parrafo p,li{
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+
+/* ID */
+
+
+#resumen{
+    background: linear-gradient(180deg,var(--wildBlue) 0%,var(--nonPhotoBlue)50%,var(--celeste)100%);
+    margin-left: 250px;
+    color: var(--darkPurple);
+    
+}
+

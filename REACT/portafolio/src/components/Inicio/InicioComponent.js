@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css";
 
 const InicioComponent = () => {
   return (
-    <div id="inicio" className="position-relative min-vh-100">
+    <div id="inicio">
       <div className="inicio-div">
         <p className="texto-inicio">
           Bienvenido! <br />

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=PT+Sans+Caption&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --darkPurple : #22162b;
+    --russianViolet :#451f55;
+    --royalPurple :#724e91;
+    --wildBlue :#99b2dd;
+    --nonPhotoBlue : #9bd9eb;
+    --celeste :#9dfff9;
+    --white : #cfcece;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/* Class Contacto */
+
+.titulo-contacto{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--darkPurple);
+    top: 20px;
+    margin: 0 43% 80px;
+
+}
+
+.formulario-contacto{
+    position: absolute;
+    left: 100px;
+}
+
+.formulario-contacto label{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 23px;
+}
+
+.formulario-contacto input{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    height: 60px;
+}
+
+.formulario-contacto textarea{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+}
+
+
+.boton-enviar{
+    background-color: transparent;
+    color: var(--darkPurple);
+    border-radius: 5px;
+    height: 60px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover{
+    background-color: var(--darkPurple);
+    color: var(--white);
+    transition: 0.4s ease-out all;
+} */
+
+/* ID */
+
+
+#contacto{
+    background: var(--celeste);
+    min-height: 85vh;
+    margin-left: 250px;
+    color: var(--darkPurple);
+}
+

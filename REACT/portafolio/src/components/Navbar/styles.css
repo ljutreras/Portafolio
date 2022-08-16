@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=PT+Sans+Caption&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --darkPurple : #22162b;
+    --russianViolet :#451f55;
+    --royalPurple :#724e91;
+    --wildBlue :#99b2dd;
+    --nonPhotoBlue : #9bd9eb;
+    --celeste :#9dfff9;
+    --white : #cfcece;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ID */
+
+#nav-menu{
+    position: fixed;
+    min-height: 100vh;
+    background-color: var(--darkPurple);
+    width: 250px ;
+    padding-right: 10px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+
+}
+
+
+/* pseudoelemento */
+#nav-menu a{
+    margin-right: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid var(--royalPurple);
+
+    color: var(--nonPhotoBlue);
+	margin-top: 10%;
+	text-shadow:
+		0 0 5px var(--royalPurple),
+		0 0 10px var(--royalPurple),
+		0 0 20px var(--royalPurple),
+		0 0 40px var(--russianViolet),
+		0 0 80px var(--russianViolet),
+		0 0 90px var(--russianViolet),
+		0 0 100px var(--russianViolet),
+		0 0 140px var(--russianViolet),
+		0 0 180px var(--russianViolet)
+}
+
+/* Hover */
+
+#nav-menu a:hover{
+    transform: scale(1.3);
+}
