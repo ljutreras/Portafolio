@@ -81,7 +81,7 @@ body{
 
 .resumen-left{
     position: absolute;
-    top: 250px ;
+    top: 200px ;
     text-align: left;
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 24px;
@@ -93,7 +93,7 @@ body{
 
 .resumen-right{
     position: absolute;
-    top: 250px;
+    top: 200px;
     text-align: left;
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 24px;
@@ -181,6 +181,8 @@ body{
 /* ID */
 
 #nav-menu{
+    position: fixed;
+    min-height: 100vh;
     background-color: var(--darkPurple);
     width: 250px ;
     padding-right: 10px;
@@ -207,13 +209,14 @@ body{
 
 #contacto{
     background: var(--celeste);
+    min-height: 85vh;
     margin-left: 250px;
     color: var(--darkPurple);
 }
 
 #footer{
     background-color: var(--darkPurple);
-    min-height: 250px;
+    min-height: 15vh;
     margin-left: 250px;
 }
 
@@ -290,4 +293,3 @@ body{
     transform-style: var(--celeste);
     cursor: pointer;
 }
-
